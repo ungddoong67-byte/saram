@@ -151,7 +151,7 @@ select{font-size:.85em;}
 
 /* 추가하는 세션 */
 .promotion2{
-   background-color:#383838;
+   background-color:#FFA500;
    background-image:url(/file/sell_rail_bg_left2.png),
       url(/file/sell_rail_bg_right2.png);
    background-repeat: no-repeat;
