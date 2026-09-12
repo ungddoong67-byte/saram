@@ -151,7 +151,7 @@ select{font-size:.85em;}
 
 /* 추가하는 세션 */
 .promotion2{
-   background-color:#FFA500;
+   background-color:#FF5800;
    background-image:url(/file/sell_rail_bg_left2.png),
       url(/file/sell_rail_bg_right2.png);
    background-repeat: no-repeat;
@@ -740,6 +740,33 @@ a.comConfirm:focus {
       background-size:90%;
    }
    .promotion h3.text{margin:10px auto;}
+
+   /* 추가하는 세션 */
+   .promotion2{
+      background-size:50%, 20%;
+      background-position:5% 15%, 95% 10%;
+      -webkit-animation: promotion2_bg 3s infinite; /* Safari 4.0 - 8.0 */
+      animation: promotion2_bg 3s infinite;
+   }
+   /* Safari 4.0 - 8.0 */
+   @-webkit-keyframes promotion2_bg {
+      0% {background-position:5% 15%, 95% 10%;}
+      50% {background-position:7% 13%, 92% 12%;}
+      100% {background-position:5% 15%, 95% 10%;}
+   }
+   @keyframes promotio2n_bg {
+      0% {background-position:5% 15%, 95% 10%;}
+      50% {background-position:7% 13%, 92% 12%;}
+      100% {background-position:5% 15%, 95% 10%;}
+   }
+
+   .promotion2 .img{
+      right:0;
+      background-image:url(/file/mo_sell_rail_img2.png);
+      background-position: 101% 100% ;
+      background-size:90%;
+   }
+   .promotion2 h3.text{margin:10px auto;}
 
    /* 실시간 정산 (구 나만의 컨텐츠) */
    .my_contents .img{
