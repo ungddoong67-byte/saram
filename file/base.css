@@ -149,6 +149,14 @@ select{font-size:.85em;}
    background-repeat: no-repeat;
 }
 
+/* 추가하는 세션 */
+.promotion2{
+   background-color:#383838;
+   background-image:url(/file/sell_rail_bg_left2.png),
+      url(/file/sell_rail_bg_right2.png);
+   background-repeat: no-repeat;
+}
+
 /* 나만의 컨텐츠 */
 .my_contents{
    background-color:#341a38;
@@ -541,6 +549,53 @@ a.comConfirm:focus {
    .promotion .text_area {padding-right:20%;}
    .promotion .title, .promotion .sub_title, .promotion .text {text-align:right !important;}
    .promotion h3.text{margin-bottom:10px;}
+
+   /* 할일은 홍보뿐 */
+   .promotion2{
+      background-size:40%, 14%;
+      background-position:-10% -30%, 95% 25%;
+      -webkit-animation: promotion2_bg 2s infinite; /* Safari 4.0 - 8.0 */
+      animation: promotion2_bg 2s infinite;
+   }
+   .promotion2 .img{
+      background-image:url(/file/sell_rail_img2.png),
+         url(/file/sell_rail_register2.png),
+         url(/file/sell_rail_shipping2.png),
+         url(/file/sell_rail_doc2.png);
+      background-position:-1% 101%, 17% 60%, 30% 62%, 51% 63%;
+      background-size:55%, 10%, 10% ,10%;
+      -webkit-animation: promotion2 2s infinite; /* Safari 4.0 - 8.0 */
+      animation: promotion2 2s infinite;
+   }
+   /* Safari 4.0 - 8.0 */
+   @-webkit-keyframes promotion2_bg {
+      0% {background-position:-10% -30%, 95% 25%;}
+      50% {background-position:-7% -30%, 95% 20%;}
+      100% {background-position:-10% -30%, 95% 25%;}
+   }
+   @keyframes promotion2_bg {
+      0% {background-position:-10% -30%, 95% 25%;}
+      50% {background-position:-7% -30%, 95% 20%;}
+      100% {background-position:-10% -30%, 95% 25%;}
+   }
+
+   /* Safari 4.0 - 8.0 */
+   @-webkit-keyframes promotion2 {
+      0% {background-size:55%, 8%, 8% ,8%;}
+      50% {background-size:55%, 7%, 7% ,7%;}
+      100% {background-size:55%, 8%, 8% ,8%;}
+   }
+
+   /* Standard syntax */
+   @keyframes promotion2 {
+      0% {background-size:55%, 8%, 8% ,8%;}
+      50% {background-size:55%, 7%, 7% ,7%;}
+      100% {background-size:55%, 8%, 8% ,8%;}
+   }
+
+   .promotion2 .text_area {padding-right:20%;}
+   .promotion2 .title, .promotion2 .sub_title, .promotion2 .text {text-align:right !important;}
+   .promotion2 h3.text{margin-bottom:10px;}
 
    /* 실시간정산(구 나만의 컨텐츠) */
    .my_contents .img{
