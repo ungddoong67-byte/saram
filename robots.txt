@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://가남읍퀵서비스.퀵배송1661-4262.kr/sitemap.xml
+Sitemap: https://사람퀵서비스.퀵배송1661-4262.kr/sitemap.xml
